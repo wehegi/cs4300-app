@@ -1,5 +1,9 @@
 import './App.css';
 import Users from './Users';
+import "bootstrap/dist/css/bootstrap.min.css"
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom"
+import Auth from "./Auth"
+
 const DUMMY_USERS = [
     {
       id: 'u1',
@@ -18,11 +22,36 @@ const DUMMY_USERS = [
    },
    
    ]
-   function App() {
-    return (
-      <div className="App">
-        <Users user_list={DUMMY_USERS} />
+
+   function Root() {
+      const navigate = useNavigate();
+
+      return (
+        <>
+    <div className="App">
+      <div>
+        <button variant="contained" onClick={() => {navigate('/auth')}} type="button">Log In</button>
       </div>
+      <div>
+        <button variant="contained" onClick={() => {navigate('/')}} type="button">Home</button>
+      </div>
+        <Routes>
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/" element={<Users user_list={DUMMY_USERS}/>} />
+        </Routes>
+    </div>
+    </>
+      )
+   }
+
+   function App() {
+
+    return (
+    <>
+      <BrowserRouter>
+          <Root />
+      </BrowserRouter>
+    </>
     );
   }
   
