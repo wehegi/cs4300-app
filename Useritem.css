@@ -5,7 +5,7 @@
 .user-item-image{
     align-content: center;
     flex:1;
-
+    width: 50%;
    
 }
 .user-item-text{
