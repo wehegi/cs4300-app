@@ -1,5 +1,10 @@
 .users{
+    padding: 1rem;
+    background-color: FFFBF5;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
