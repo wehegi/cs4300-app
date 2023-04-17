@@ -4,9 +4,8 @@
 
 .user-item-image{
     align-content: center;
-    flex:1;
+    padding: 15px;
     width: 50%;
-   
 }
 .user-item-text{
       font-size: 5em;
