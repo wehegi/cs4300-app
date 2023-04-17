@@ -1,8 +1,5 @@
 import React from 'react';
 function Login (){
-     const useNavigate=() => {
-        props.useNavigate();
-     }
     return(
         <div>
             <h3>Login</h3>
