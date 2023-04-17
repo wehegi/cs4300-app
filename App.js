@@ -6,22 +6,36 @@ import Auth from "./Auth"
 
 const DUMMY_USERS = [
     {
-      id: 'u1',
-      name: 'Princess Jasmine',
+      id: 'dogs',
+      name: 'DOGS',
       image:'https://static.wikia.nocookie.net/disney/images/c/cd/Profile_-_Jasmine.jpeg/revision/latest?cb=20190312021628'
     },
    {
-     id: 'u1',
-     name: 'Princess Tiana',
+     id: 'cats',
+     name: 'CATS',
      image:'https://static.wikia.nocookie.net/dis/images/5/5e/Tumblr_njlwm1L4zC1rm51d6o1_500.jpg/revision/latest?cb=20160611211129'
    },
    {
-     id: 'u1',
-     name: 'Princess Ariel',
+     id: 'guinea pig',
+     name: 'GUINEA PIG',
      image: 'https://upload.wikimedia.org/wikipedia/en/7/77/Ariel_disney.png'
    },
-   
-   ]
+   {
+     id: 'rats',
+     name: 'RATS',
+     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+   },
+   {
+     id: 'snakes',
+     name: 'SNAKES',
+     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+   },
+   {
+     id: 'rabbits',
+     name: 'RABBITS',
+     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+   },   
+   ];
 
    function Root() {
       const navigate = useNavigate();
