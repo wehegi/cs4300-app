@@ -3,12 +3,13 @@
 }
 
 .user-item-image{
-    width: 75%;
-    height: 10px;
-    margin-top: 2rem;
-    background-color: blanchedalmond;
+    align-content: center;
+    flex:1;
+
+   
 }
 .user-item-text{
-    font-size: 5px;
-    color:black
+      font-size: 5em;
+      flex-direction: row;
+      align-self: center;
 }
