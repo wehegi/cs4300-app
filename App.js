@@ -8,32 +8,32 @@ const DUMMY_USERS = [
     {
       id: 'dogs',
       name: 'DOGS',
-      image:'https://static.wikia.nocookie.net/disney/images/c/cd/Profile_-_Jasmine.jpeg/revision/latest?cb=20190312021628'
+      image:'https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg'
     },
    {
      id: 'cats',
      name: 'CATS',
-     image:'https://static.wikia.nocookie.net/dis/images/5/5e/Tumblr_njlwm1L4zC1rm51d6o1_500.jpg/revision/latest?cb=20160611211129'
+     image:'https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg'
    },
    {
      id: 'guinea pig',
      name: 'GUINEA PIG',
-     image: 'https://upload.wikimedia.org/wikipedia/en/7/77/Ariel_disney.png'
+     image: 'https://news.clas.ufl.edu/wp-content/uploads/sites/4/2020/06/AdobeStock_345118478-copy-1440x961-1-e1613512040649-768x644.jpg'
    },
    {
      id: 'rats',
      name: 'RATS',
-     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ratte-Vache.jpeg/1200px-Ratte-Vache.jpeg'
    },
    {
      id: 'snakes',
      name: 'SNAKES',
-     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+     image: 'https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NDc1ODIwMzg1OTY5Nzk4/the-smallest-pet-snakes-for-beginners-with-easy-care.jpg'
    },
    {
      id: 'rabbits',
      name: 'RABBITS',
-     image: 'https://cdn.dribbble.com/users/2479547/screenshots/7482884/media/dead929c0bfbe92e13a1aa919027fe46.png?compress=1&resize=400x300'
+     image: 'https://www.treehugger.com/thmb/Ocxi8FYaubDwjOwria6FNpGjJjo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-953005498-4ca60c6c2c5f4b0e881b2746ad5f17ef.jpg'
    },   
    ];
 
