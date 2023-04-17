@@ -3,9 +3,6 @@ import Users from './Users';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom"
 import Auth from "./Auth"
-import Login from './components/Login';
-import Signup from './components/Signup';
-import Item from './components/Item';
 
 const DUMMY_USERS = [
     {
