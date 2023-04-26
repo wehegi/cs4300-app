@@ -1,0 +1,11 @@
+.Signup {
+    background-color: #C4DDFF;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px #3d67a3;
+    padding: 1rem;
+    text-align: center;
+    width:90%;
+    margin: 5rem;
+    align-items: center;
+}
